@@ -2,6 +2,7 @@
 Messy miscellanea of GIS classes and functions in PHP
 
 - **gisPhp_Buffer.class.php**
+    
     Polygon's Buffer Generator class
 
 - **gisPhp_ConvexHull.class.php**
