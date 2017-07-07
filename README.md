@@ -7,9 +7,7 @@ Messy miscellanea of GIS classes and functions in PHP
 
 - **gisPhp_ConvexHull.class.php**
     
-    Convex hull calculator
-    Adds buffer option to Jakob Westhoff's <jakob@php.net> Convex hull calculator
-    [ http://westhoffswelt.de/blog/0040_quickhull_introduction_and_php_implementation.html ]
+    Convex hull calculator; adds buffer option to Jakob Westhoff <jakob@php.net> [ http://westhoffswelt.de/blog/0040_quickhull_introduction_and_php_implementation.html ]
 
 - **gisPhp_ED502ETRS89.class.php**
 	
