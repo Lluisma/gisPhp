@@ -15,8 +15,8 @@
 
   class gisPhp_Offset {
 
-    public function __construct( array $punts, $dist_offset ) {
-      $this->inputPoints  = $punts;
+    public function __construct( array $points, $dist_offset ) {
+      $this->inputPoints  = $points;
       $this->dist_offset  = $dist_offset;
       //$this->offsetPoints = null;
     }
