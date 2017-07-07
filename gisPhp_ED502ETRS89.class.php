@@ -19,7 +19,7 @@
   # _______________________________________________________________________________________________
 
 
-  class agis_ed502etrs89 {
+  class gisPhp_ed502etrs89 {
 
   	var $arrHEAD1;							      // * File heading
   	var $arrHEAD2;							      // * Grid heading
