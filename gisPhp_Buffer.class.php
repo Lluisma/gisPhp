@@ -4,7 +4,7 @@
   # -----------------------------------------------------------------------------------------------
   #  Author:       lluís martí i garro
   #  Date:         01-03-2012
-  #  Description:  Generació de l'offset d'un polígon
+  #  Description:  Polygon's Buffer Generator class
   # _______________________________________________________________________________________________
 
 
