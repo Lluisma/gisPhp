@@ -21,20 +21,20 @@
    	 	                         			// Polar Radius = 6378137;
     $b = 6356911.946130;						// Minor semi-aixis 
   
-    // * Càlculs previs, sobre la geometria de l'el·lipsoide --------------------------------------
+    // * Previous calculations, over ellipsoid's geometry -----------------------------------------
   
   	//$e = sqrt(pow($a,2) - pow($b,2))/$a;			// Excentricity (not needed in Coticchia-Surace's equations)
   	$ei = sqrt(pow($a,2) - pow($b,2))/$b;				// Second excentricity
   	$ei2 = pow($ei,2);									        // Square of second excentricity
   
-  	$c = pow($a,2)/$b;									        // Polar radius or curvature
+  	$c = pow($a,2)/$b;									        // Polar radius of curvature
 	 //$alfa = ($a-$b)/$a;								        // Plane (not needed in Coticchia-Surace's equations)
   
     // * Previous treatment of X and Y ------------------------------------------------------------
     $x = $x - 500000.0;									        // (new axis)
     //$y = $y - 10000000.0;								      // Elimination of 'setback' only in the southern hemisphere (this is not the case)
   
-    // * Spindle Center Meridian Calculation ------------------------------------------------------
+    // * UTM zone Center Meridian Calculation ------------------------------------------------------
     $lambda0 = $fus * 6 - 183;
   
     // * Coticchia-Surace's equations : Parameters ------------------------------------------------
